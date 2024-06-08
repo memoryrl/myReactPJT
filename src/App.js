@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+/*
+// MyComponent
+import MyComponent from "./MyComponent";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MyComponent name="React" favoriteNumber={24}>
+      <b>리액트</b>
+    </MyComponent>
   );
-}
+};
+
+// Counter
+import Counter from "./Counter";
+
+const App = () => {
+  return <Counter />;
+};
+*/
+
+import Say from "./Say";
+
+const App = () => {
+  return <Say />;
+};
 
 export default App;
