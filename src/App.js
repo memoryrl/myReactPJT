@@ -38,6 +38,12 @@ import Average from "./Average";
 // SassComponent
 import SassComponent from "./SassComponent";
 
+// CSSModule
+import CSSModule from "./CSSModule";
+
+// StyledComponent
+import StyledComponent from "./StyledComponent";
+
 // 랜덤 색상을 생성합니다.
 function getRandomColor() {
   return "#" + Math.floor(Math.random() * 16777215).toString(16);
@@ -108,6 +114,14 @@ class App extends Component {
         <section>
           <label>SassComponent</label>
           <SassComponent />
+        </section>
+        <section>
+          <label>CSSModule</label>
+          <CSSModule />
+        </section>
+        <section>
+          <label>StyledComponent</label>
+          <StyledComponent />
         </section>
       </>
     );
