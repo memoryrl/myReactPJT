@@ -119,10 +119,10 @@ class App extends Component {
           <label>CSSModule</label>
           <CSSModule />
         </section>
-        {/* <section>
+        <section>
           <label>StyledComponent</label>
           <StyledComponent />
-        </section> */}
+        </section>
       </>
     );
   }
