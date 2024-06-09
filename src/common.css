@@ -1,0 +1,15 @@
+section{
+    display: block;
+    border: 1px solid #140101;
+    margin: 16px 8px 8px 8px;
+    padding: 8px;
+    width: calc(49.5% - 30px);
+    float: left;
+}
+
+section label{
+    top: -18px;
+    position: relative;
+    background: #fff;
+    padding: 0px 8px;
+}
